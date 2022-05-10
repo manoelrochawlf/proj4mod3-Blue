@@ -1,0 +1,64 @@
+.AdicionaRolexModal {
+    font-family: "Exo";
+    border-radius: 10px;
+    max-height: 350px;
+    box-sizing: border-box;
+    width: 325px;
+    display: flex;
+    position: relative;
+    transform: translateY(-15px);
+    margin-right: -45px;
+  }
+  
+  .AdicionaRolexModal form div {
+    display: flex;
+    margin: 15px 0;
+  }
+  
+  .AdicionaRolexModal form {
+    width: 100%;
+  }
+  
+  .AdicionaRolexModal div input {
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    margin-left: 15px;
+    border-radius: 5px;
+    height: 20px;
+    padding: 2px 10px;
+  }
+  
+  .AdicionaRolexModal__text {
+    font-size: 1em;
+    line-height: 100%;
+  }
+  
+  .AdicionaRolexModal__img-label {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #93d8bd;
+    border-radius: 5px;
+    color: #a37e2c;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .AdicionaRolexModal__img {
+    display: none;
+  }
+  
+  .AdicionaRolexModal__enviar {
+    background-color: #006039;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+  }
+  
+  .AdicionaRolexModal__enviar:disabled {
+    background-color: gray;
+  }

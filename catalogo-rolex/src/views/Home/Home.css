@@ -1,0 +1,9 @@
+.Home {
+    background-color: aliceblue;
+    min-height: calc(100vh - 60px);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  }

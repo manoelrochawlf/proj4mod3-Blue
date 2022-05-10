@@ -1,0 +1,39 @@
+.DeletaRolexModal {
+    margin-top: -20px;
+  }
+  
+  .DeletaRolexModal > div {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .DeletaRolexModal__img {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    width: 80px;
+  }
+  
+  .DeletaRolexModal__confirmar,
+  .DeletaRolexModal__cancelar {
+    border: none;
+    border-radius: 5px;
+    font-family: "Exo", sans-serif;
+    padding: 5px;
+    max-width: 280px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 48%;
+    color: white;
+  }
+  
+  .DeletaRolexModal__confirmar {
+    background-color: darkviolet;
+  }
+  
+  .DeletaRolexModal__cancelar {
+    background-color: red;
+  }

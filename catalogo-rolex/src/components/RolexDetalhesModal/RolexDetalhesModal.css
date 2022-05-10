@@ -1,0 +1,25 @@
+
+
+section#cards div.card{
+  width: 30rem;
+  font-size: 15px;
+  box-shadow: 5px 10px 5px #a37e2c;
+  padding: 1rem;
+  background-color: white;
+  color: #006039;
+}
+
+section#cards div.card:hover{
+  transform-style: flat;
+  background-color: #006039;
+  color: white;
+}
+
+section#cards div.card img {
+    width: 300px;
+    height: 300px;
+}
+
+section#cards div.card p.descricao {
+    margin-bottom: 1px;
+}

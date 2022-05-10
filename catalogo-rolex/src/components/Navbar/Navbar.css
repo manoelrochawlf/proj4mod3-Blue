@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+    background-color: #006039;
+    color: white;
+
+}
+
+.logo-rolex {
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+.relogioicon {
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.Modelo {
+  background: none;
+  border: none;
+  transform: translateY(-3px);
+  border-radius: 10px;
+  transition: all .5s;
+  padding: 0;
+
+}
+
+.iconupdate {
+  cursor: pointer;
+  transform: translateY(3px);
+}
+
+.buttonclock {
+  cursor: pointer;
+}
+
+.rolexativo {
+  background-color: #a37e2c;
+}
+.rolexdeletar {
+  background: rgba(211, 0, 0);
+}
+
+
