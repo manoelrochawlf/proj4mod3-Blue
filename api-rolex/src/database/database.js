@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 function connectToDatabase() {
     mongoose
-    .connect(process.env.DATABASE-URI, {
+    .connect('mongodb://localhost:27017/rolex-db', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       })

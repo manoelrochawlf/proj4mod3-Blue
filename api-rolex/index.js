@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require('express');
 const cors = require('cors');
-const port = process.env.PORT || 3333;
+const port = 3333;
 const route = require("./src/routes/rolex.route")
 const connectToDatabase = require('./src/database/database');
 
