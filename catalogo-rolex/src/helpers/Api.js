@@ -9,6 +9,6 @@ const RolexContext = {
   
   
   export const Api = {
-    baseUrl: "http://localhost:3333",
+    baseUrl: "https://api-rolex-server.onrender.com",
     ...RolexContext,
   };
